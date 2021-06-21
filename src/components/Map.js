@@ -3,8 +3,9 @@ import GoogleMapReact from "google-map-react";
 const Map = ({ center, zoom }) => {
   return (
     <div className="map">
+// Todo API key need to add
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyB4a3-oI-CtlC6eI19s7kxeheAStpsNE6E" }}
+        bootstrapURLKeys={{ key: "" }}
         defaultCenter={center}
         defaultZoom={zoom}
       ></GoogleMapReact>
